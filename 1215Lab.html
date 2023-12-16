@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <script>
+
+        var num1;
+        num1 = window.prompt("Enter number1");
+        var num2;
+        num2 = window.prompt("Enter number2");
+        if(parseInt(num1)>parseInt(num2)){
+            document.body.style.backgroundColor = 'lightblue';
+            document.writeln(num1+">"+num2);
+        }
+        if(parseInt(num1)<parseInt(num2)){
+            document.body.style.backgroundColor = 'orange';
+            document.writeln(num2+">"+num1);
+        }
+        if(parseInt(num1)==parseInt(num2)){
+            document.body.style.backgroundColor = 'lightyellow';
+            document.writeln(num2+"=="+num1);
+        }
+
+    </script>
+
+<div class>
+    <button onclick="document.writeln(num1)">First input</button>
+    <button onclick="document.writeln(num2)">Second input</button>
+</div>
+</body>
+</html>
